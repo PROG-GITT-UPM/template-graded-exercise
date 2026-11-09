@@ -7,22 +7,22 @@ de cada ejercicio, está en Moodle.
 
 | Fichero | Ejercicio |
 |---|---|
-| `ejercicio_01_saludo.py` | Saludo |
-| `comprobar.py` | Comprueba tus ejercicios con los ejemplos de la hoja |
+| `exercise_01_greeting.py` | Saludo |
+| `check.py` | Comprueba tus ejercicios con los ejemplos de la hoja |
 
 Cada fichero de ejercicio empieza con un comentario. Escribe tu programa debajo. No cambies la
-carpeta `.corrector/`.
+carpeta `.grader/`.
 
 ## Antes de entregar: comprueba
 
 En VS Code: **Terminal → Ejecutar tarea… → Comprobar mis ejercicios**. O en el terminal:
 
 ```bash
-python comprobar.py        # todos los ejercicios
-python comprobar.py 1      # solo el ejercicio 1
+python check.py        # todos los ejercicios
+python check.py 1      # solo el ejercicio 1
 ```
 
-`comprobar.py` ejecuta tus programas con las entradas de los ejemplos de la hoja y compara tu
+`check.py` ejecuta tus programas con las entradas de los ejemplos de la hoja y compara tu
 salida con la del ejemplo. Si algo falla, te enseña la primera línea distinta, con los espacios
 marcados con `·`, y la columna en la que difiere.
 
@@ -32,13 +32,13 @@ Cada vez que haces `push`, tu trabajo queda entregado. Haz un commit cada vez qu
 ejercicio:
 
 ```bash
-git add ejercicio_01_saludo.py
+git add exercise_01_greeting.py
 git commit -m "Ejercicio 1 terminado"
 git push
 ```
 
 ## Dónde ves tu corrección
 
-El corrector de la asignatura pasa las mismas pruebas que `comprobar.py` a lo que has subido. Unos
-minutos después de tu `push`, en la página de tu repositorio, en **Releases**, aparece una
-**Corrección** con el resultado de cada prueba.
+El corrector de la asignatura pasa las mismas pruebas que `check.py` a lo que has subido. Unos
+minutos después de tu `push`, en la página de tu repositorio, en **Releases**, aparece una entrada
+**Grading** con el resultado de cada prueba.

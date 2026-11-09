@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Ejercicio 1 — Saludo · ejemplo 1",
+    "type": "io",
+    "run": "python exercise_01_greeting.py",
+    "input": "Ana\n",
+    "expected": "Hola, Ana. Bienvenida a PROG.",
+    "comparison": "included",
+    "timeout": 10,
+    "points": 1
+  }
+]
